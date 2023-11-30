@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import images from '../../templates/logo192.png'
+import image2 from '../../templates/profile.png'
 const header={
     name:'Abrhaley',
     last_name:'Gebreslassie',
@@ -46,7 +47,7 @@ export default function Header() {
       
     </div>
     <section>
-      <div>
+      <div className='introducing-yourself'>
         <div>
         <h1><span>ux</span> Design</h1>
         <h1><span>for</span>Good</h1>
@@ -55,7 +56,9 @@ export default function Header() {
           <img src={image2} alt="" />
         </div>
         <div>
-
+           <p>I’m Abrish, a freelance UX designer based <br/>in Ethiopia. 
+                I craft accessible websites for<br/> brands
+                 using tech for good.</p>
         </div>
       </div>
     </section>

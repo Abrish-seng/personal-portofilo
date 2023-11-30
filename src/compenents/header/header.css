@@ -24,3 +24,7 @@
     display: flex;
     margin-top: px;
 }
+.introducing-yourself{
+    display: flex;
+    justify-content: space-around;
+}
