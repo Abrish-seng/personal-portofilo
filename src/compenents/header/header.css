@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 *{
     background-color: #fff7f3;
 }
@@ -6,6 +7,7 @@
     justify-content: space-around;
     background-color: #fff7f3;
     margin-top: 30px;
+    
 }
 .header-info{
     display: flex;
@@ -19,12 +21,95 @@
 }
 .first_header{
     margin-left: 20px;
+   
 }
 .second_header{
     display: flex;
-    margin-top: px;
+   
 }
+.email-me{
+    align-self: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.list-items ul{
+    list-style: none;
+    font-size: 20px;
+    
+}
+.background ul li{
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+   
+}
+.background ul li a{
+    text-decoration:none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .introducing-yourself{
+    margin-top: 200px;
     display: flex;
     justify-content: space-around;
+}
+.introducing-yourself div h1{
+    font-weight: 900;
+    font-size: 70px;
+}
+.description{
+    margin-bottom: 0;
+    align-self: center;
+    padding-left: 0;
+    padding-right: 0%;
+    font-size: 17px;
+}
+.work ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffd3ff;
+}
+.work ul li{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    background-color: #ffd3ff;
+    margin-bottom: 35px;
+}
+.ethics-design{
+    margin-top: 70px;
+}
+.ethics-design h1{
+    margin-left: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.access{
+    display: flex;
+  
+}
+.access h3{
+    margin-left: 25px;
+}
+.p-desc p{
+    text-justify:inherit;
+    margin-top: 35px;
+    font-size: 20px;
+}
+.ethics{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.aboutme-main{
+    margin-top: 300px;
+}
+.aboutme-main h1{
+    margin-left: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+}
+.aboutme{
+    justify-content: space-around;
+    display: flex;
 }
