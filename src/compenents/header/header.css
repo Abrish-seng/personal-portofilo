@@ -1,0 +1,26 @@
+*{
+    background-color: #fff7f3;
+}
+.top_header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff7f3;
+    margin-top: 30px;
+}
+.header-info{
+    display: flex;
+    justify-content: center;
+   
+}
+.img_profile{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+}
+.first_header{
+    margin-left: 20px;
+}
+.second_header{
+    display: flex;
+    margin-top: px;
+}
